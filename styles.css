@@ -1,99 +1,89 @@
 * {
-    /*
+  /*
     border: 2px solid red; */
-    font-family: sans-serif;
-    box-sizing: border-box;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: #151c29;
 }
 
+/* Top half */
 header {
-    background-color: #151c29;
-    color: white;
-    height: auto;
-    border: 2px solid red;
-}
-
-img {
-    border: 2px solid red;
+  color: white;
+  height: auto;
 }
 
 .logo-header {
-    border: 2px solid red;
-    padding: 10px 80px;
-    display: flex;
-    align-items: center;
+  padding: 10px 80px;
+  display: flex;
+  align-items: center;
 }
 
 .hat {
-    height: 62px;  
+  height: 62px;
 }
 
 .links {
-    border: 2px solid red;
-    display: flex;
-    justify-content: flex-end;
-    flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
 }
 
-
-a { 
-    text-decoration: none;
-    color: white;
-    
+a {
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
-    text-decoration:underline;
+  text-decoration: underline;
 }
 
 ul {
-    border: 2px solid red;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    gap: 30px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
+/* Lower half */
 .content-header {
-    border: 2px solid red;
-    padding: 80px;
-    display: flex;
-    justify-content: space-between;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-text {
-    display: flex;
-    border: 2px solid red;
-    width: 550px;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  width: 550px;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .header-text h1,
 .header-text p {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .header-text > h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 button {
-    border: 2px solid #755C24;
-    color: white;
-    padding: 20px 40px 20px 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    transition-duration: 0s;
-    cursor: pointer;
-  }
-  
-  .hello {
-    background-color: white; 
-    color: black; 
-  }
-  
-  .hello:hover {
-    background-color: #755C24;
-    color: white;
-  }
+  border: 2px solid #755c24;
+  color: white;
+  padding: 20px 40px 20px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0s;
+  cursor: pointer;
+}
+
+.hello {
+  background-color: white;
+  color: black;
+}
+
+.hello:hover {
+  background-color: #755c24;
+  color: white;
+}
