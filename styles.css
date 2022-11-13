@@ -1,0 +1,42 @@
+* {
+    /*
+    border: 2px solid red; */
+    font-family: sans-serif;
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    border: 2px solid red;
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-left: 20px;
+}
+header {
+    background-color: gray;
+    color: white;
+}
+
+img {
+    border: 2px solid red;
+}
+
+.logo-header {
+    border: 2px solid red;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    border: 2px solid red;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
