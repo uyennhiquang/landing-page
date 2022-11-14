@@ -16,7 +16,7 @@
  }
 
 * {
-    /*border: 2px solid red; */
+    /* border: 2px solid red; */
     font-family: MessinaSans, sans-serif;
     box-sizing: border-box;
 }
@@ -26,6 +26,7 @@ body {
 }
 /* Top half */
 header {
+   
     color: white;
     height: auto;
     width: auto;
@@ -33,6 +34,7 @@ header {
 }
 
 .logo-header {
+    
     padding: 10px 80px;
     display: flex;
     align-items: center;
@@ -66,6 +68,7 @@ ul {
 
 /* Lower half */
 .content-header {
+
     padding: 80px;
     display: flex;
     justify-content: space-between;
@@ -158,6 +161,7 @@ button {
 
 .quote p {
     margin: 0;
+    margin-bottom: 10px;
 }
 
 .quote-container .message {
