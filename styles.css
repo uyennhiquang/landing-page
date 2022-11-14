@@ -1,19 +1,27 @@
+@font-face {
+    font-family: MessinaSans;
+    src: url();
+}
+
 * {
     /*border: 2px solid red; */
-    font-family: sans-serif;
+    font-family: MessinaSans, sans-serif;
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
 /* Top half */
 header {
-    border: 2px solid red;
     color: white;
     height: auto;
+    width: auto;
     background: #151c29;
-    margin: 0;
 }
 
 .logo-header {
+    border: 2px solid red; 
     padding: 10px 80px;
     display: flex;
     align-items: center;
@@ -42,17 +50,19 @@ ul {
     list-style-type: none;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 60px;
 }
 
 /* Lower half */
 .content-header {
+    border: 2px solid red; 
     padding: 80px;
     display: flex;
     justify-content: space-between;
 }
 
 .header-text {
+    border: 2px solid red; 
     display: flex;
     width: 550px;
     flex-direction: column;
@@ -61,15 +71,16 @@ ul {
 
 .header-text h1,
 .header-text p {
+    border: 2px solid red; 
     padding-left: 7px;
 }
 
-.header-text>h1 {
+.header-text > h1 {
     font-size: 40px;
 }
 
 button {
-    border: none;
+    border: 2px solid red; 
     color: white;
     padding: 20px 40px 20px 10px;
     text-align: center;
@@ -89,10 +100,36 @@ button {
     color: white;
 }
 
-article {
+.info {
     background: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.info > p {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 180px;  
+}
+
+.card {
+    max-width: 200px;
+}
+
+.card-img {
+    border: 2px solid #3c5075;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
 }
 
 .quote {
+    border: 2px solid red; 
     background: #3c5075;
 }
