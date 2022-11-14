@@ -1,7 +1,19 @@
 @font-face {
     font-family: MessinaSans;
-    src: url();
-}
+    src: url(./fonts/MessinaSans-Light.woff);
+ }
+ 
+ @font-face {
+    font-family: MessinaSans;   
+    src: url(./fonts/MessinaSans-Bold.woff);
+    font-weight: bold;
+ }
+
+ @font-face {
+    font-family: MessinaSans;   
+    src: url(./fonts/MessinaSans-LightItalic.woff);
+    font-style: italic;
+ }
 
 * {
     /*border: 2px solid red; */
@@ -76,6 +88,7 @@ ul {
 }
 
 .header-text > h1 {
+    font-weight: bold;
     font-size: 40px;
 }
 
@@ -96,7 +109,7 @@ button {
 }
 
 .hello:hover {
-    background-color: #755c24;
+    background-color: #6384C2;
     color: white;
 }
 
@@ -123,7 +136,7 @@ button {
 }
 
 .card-img {
-    border: 2px solid #3c5075;
+    border: 2px solid #6384C2;
     border-radius: 8px;
     height: 100px;
     width: 100px;
@@ -131,5 +144,30 @@ button {
 
 .quote {
     border: 2px solid red; 
-    background: #3c5075;
+    background: #6384C2;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote p {
+    margin: 0;
+}
+
+.quote-container .message {
+    font-style: italic;
+}
+
+.quote-container .bold {
+    font-weight: bold;
+    color: #151c29;
 }
