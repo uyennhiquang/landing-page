@@ -33,7 +33,6 @@ header {
 }
 
 .logo-header {
-    border: 2px solid red; 
     padding: 10px 80px;
     display: flex;
     align-items: center;
@@ -67,14 +66,12 @@ ul {
 
 /* Lower half */
 .content-header {
-    border: 2px solid red; 
     padding: 80px;
     display: flex;
     justify-content: space-between;
 }
 
 .header-text {
-    border: 2px solid red; 
     display: flex;
     width: 550px;
     flex-direction: column;
@@ -83,7 +80,6 @@ ul {
 
 .header-text h1,
 .header-text p {
-    border: 2px solid red; 
     padding-left: 7px;
 }
 
@@ -93,8 +89,6 @@ ul {
 }
 
 button {
-    border: 2px solid red; 
-    color: white;
     padding: 20px 40px 20px 10px;
     text-align: center;
     text-decoration: none;
@@ -104,14 +98,17 @@ button {
 }
 
 .hello {
-    background-color: white;
+    border: 1px solid white;
+    background-color: #6384C2;
     color: black;
 }
 
 .hello:hover {
-    background-color: #6384C2;
-    color: white;
+    background-color: white;
+    color: black;
 }
+
+/* Cards */
 
 .info {
     background: white;
@@ -142,18 +139,18 @@ button {
     width: 100px;
 }
 
+/* Quote */
 .quote {
-    border: 2px solid red; 
-    background: #6384C2;
+    background: #a8abad;
     padding: 60px;
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .quote-container {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -171,3 +168,55 @@ button {
     font-weight: bold;
     color: #151c29;
 }
+
+/* Call of action */
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    color: white;
+}
+
+.action {
+    border-radius: 8px;
+    background-color: #6384C2;
+    width: 800px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px; 
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-text h1 {
+    margin: 0px;
+}
+
+.purchase {
+    border: 1px solid white;
+    background-color: #6384C2;
+    color: black;
+}
+
+.purchase:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151c29;
+    color: white;
+    padding: 50px;
+}
+
